@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: PRIYA DHARSHINI R
+* **Register Number**: 212224050033
+* **Date of Submission**: 12.05.2026
 
 ---
 
@@ -87,33 +87,30 @@ Create a simple HTML page and verify that it can be accessed from a web browser 
 
 (Write the steps you followed in your own words)
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+1. I opened the AWS Management Console and created a new VPC named **lab-vpc** with one public subnet and one private subnet, along with an Internet Gateway and NAT Gateway.
 
----
+2. Then, I created two additional subnets in another Availability Zone and updated the route tables to allow internet access through the Internet Gateway and NAT Gateway.
+
+3. After that, I created a security group called **Web Security Group** and added an inbound HTTP rule to allow web traffic from anywhere.
+
+4. Next, I launched an EC2 instance named **Web Server 1** in the public subnet using Amazon Linux, attached the security group, and enabled a public IP.
+
+5. Finally, I used the user data script to install and start the Apache web server, then opened the public DNS of the instance to verify that the website was running successfully.
+
 
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: VPC and Subnet Details
 
-(Insert Screenshot Here)
-
----
+<img width="1910" height="806" alt="EXP2 (1)" src="https://github.com/user-attachments/assets/88c55968-1772-430d-8e27-575428849b90" />
 
 ### Screenshot 2: EC2 Instance Running
 
-(Insert Screenshot Here)
-
----
+<img width="1914" height="839" alt="EXP2 (4)" src="https://github.com/user-attachments/assets/0450969b-82df-4f8e-9d50-039488205191" />
 
 ### Screenshot 3: Web Server Output in Browser
 
-(Insert Screenshot Here)
-
----
+<img width="1244" height="710" alt="EXP2(5)" src="https://github.com/user-attachments/assets/0241956b-be95-4e6c-8348-a0673be1c820" />
 
 ## Result 
 
