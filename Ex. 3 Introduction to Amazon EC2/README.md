@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: PRIYA DHARSHINI R
+* **Register Number**: 212224050033
+* **Date of Submission**: 13.05.2026
 
 ---
 
@@ -98,33 +98,32 @@ Terminate the EC2 instance after completing the experiment to avoid unnecessary 
 
 (Write the steps you followed in your own words)
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+1. Launched an Amazon EC2 instance named **Web Server** with termination protection and stop protection enabled.
 
----
+2. Configured and monitored the EC2 instance using status checks, system logs, and monitoring tools to verify proper working of the web server.
+
+3. Updated the security group by allowing HTTP traffic on port 80 and successfully accessed the web page displaying **“Hello From Your Web Server!”**
+
+4. Resized the EC2 instance from **t2.micro** to **t2.small** and increased the EBS storage volume from **8 GiB to 10 GiB** for better performance and storage capacity.
+
+5. Explored EC2 service quotas and tested stop protection by enabling and disabling it before successfully stopping the instance.
+
 
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: EC2 Dashboard / Instance List
 
-(Insert Screenshot Here)
-
----
+<img width="1901" height="813" alt="Screenshot 2026-05-13 173203" src="https://github.com/user-attachments/assets/856ac9e4-1461-4eb7-a74e-fc39f9d93264" />
 
 ### Screenshot 2: SSH Connection to Instance
 
-(Insert Screenshot Here)
-
----
+<img width="1919" height="823" alt="Screenshot 2026-05-13 173604" src="https://github.com/user-attachments/assets/fc626e1a-4f47-41ef-b58e-84499daed3c7" />
+<img width="1914" height="580" alt="Screenshot 2026-05-13 174238" src="https://github.com/user-attachments/assets/a74a4939-24d4-4976-b092-e98fb70bd949" />
 
 ### Screenshot 3: Instance Monitoring / Status
 
-(Insert Screenshot Here)
+<img width="1906" height="811" alt="Screenshot 2026-05-13 180906" src="https://github.com/user-attachments/assets/c5fbc6de-875e-4c4e-bce3-a850c86c07e5" />
 
----
 
 ## Result 
 
