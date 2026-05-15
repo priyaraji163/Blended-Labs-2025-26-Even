@@ -3,7 +3,9 @@
 ## Title
 
 Scale and Load Balance Your Architecture
-Author : your name   Reg no : yours   Date :
+Author : your name PRIYA DHARSHINI R
+Reg no : 212224050033
+yours   Date : 15.05.2026
 
 ---
 
@@ -68,12 +70,21 @@ Students test the setup by generating traffic and observing automatic scaling an
 
 Describe step-by-step how you performed this experiment in your own words.
 
----
+---1. Created an AMI named **WebServerAMI** from the existing **Web Server 1** instance in Amazon EC2.
+
+2. Created a Target Group (**LabGroup**) and an Application Load Balancer (**LabELB**) to distribute traffic across multiple EC2 instances.
+
+3. Created a Launch Template (**LabConfig**) and configured an Auto Scaling Group with minimum 2 and maximum 6 instances.
+
+4. Verified load balancing by accessing the application through the Load Balancer DNS and confirmed that target instances were healthy.
+
+5. Tested Auto Scaling using a load test, observed CloudWatch alarms triggering, additional EC2 instances launching automatically, and finally terminated **Web Server 1**.
+
 
 ## Output Screenshots 
 
+<img width="1826" height="749" alt="Screenshot 2026-05-15 090855" src="https://github.com/user-attachments/assets/3170c289-cd30-47a3-9dbb-62f53094c469" />
 
----
 
 
 ## Result
