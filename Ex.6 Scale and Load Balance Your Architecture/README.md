@@ -5,7 +5,7 @@
 Scale and Load Balance Your Architecture
 Author : your name PRIYA DHARSHINI R
 Reg no : 212224050033
-yours   Date : 15.05.2026
+yours   Date : 31.05.2026
 
 ---
 
@@ -86,6 +86,9 @@ Describe step-by-step how you performed this experiment in your own words.
 <img width="1826" height="749" alt="Screenshot 2026-05-15 090855" src="https://github.com/user-attachments/assets/3170c289-cd30-47a3-9dbb-62f53094c469" />
 
 
+<img width="1899" height="818" alt="Screenshot 2026-05-31 231342" src="https://github.com/user-attachments/assets/eea25029-456a-4a43-b82f-dec29dd52fa8" />
+
+<img width="1901" height="805" alt="Screenshot 2026-05-31 225505" src="https://github.com/user-attachments/assets/114aef6b-b605-498c-8247-a45c13162c29" />
 
 ## Result
 
